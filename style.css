@@ -1,0 +1,22 @@
+#colored-background {
+    background: linear-gradient(to bottom, white, blue, red);
+}
+
+@keyframes gradiend-header-animation {
+    0% {
+        background: linear-gradient(to bottom, white, blue, red);
+    }
+    33% {
+        background: linear-gradient(to bottom, red, white, blue);
+    }
+    66% {
+        background: linear-gradient(to bottom, blue, red, white);
+    }
+    100% {
+        background: linear-gradient(to bottom, white, blue, red);
+    }
+}
+
+#header {
+    animation: infinite linear gradient-header-animation 10s;
+}
